@@ -15,7 +15,15 @@
             <li><a href="/devops">What is DevOps?</a></li>
         </ul>
         <a href="https://stclouddevopslabngiamour.blob.core.windows.net/hello-cloud-devops-app-contents/ΘΜΕΛ2025-ΟΔΗΓΟΣ Ε2-PythonScrabble.pdf" download>Download File</a>
-    </main>
+<h2>Products List</h2>
+<ul>
+    {% for product in products %}
+    <li>{{ product }}</li>
+    {% else %}
+    <li>No products found.</li>
+    {% endfor %}
+</ul>    
+</main>
     <footer>
         &copy; 2025 Cloud & DevOps Workshop
     </footer>
