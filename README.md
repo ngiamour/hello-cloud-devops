@@ -26,4 +26,4 @@ This repository contains a simple Flask web application that you'll use to learn
 
 ---
 
-Happy learning! 😄 7 Yeah
+Happy learning! 😄 7 Yeah Yes
